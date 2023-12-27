@@ -78,14 +78,14 @@ class Solve8():
 
     while True:
             cur = me.open[0]
-            print("")
-            print("  | ")
-            print("  | ")
-            print(" \\\'/ \n")
-            for i in cur.board_array:
-                for j in i:
-                    print(j,end=" ")
-                print("")
+            # print("")
+            # print("  | ")
+            # print("  | ")
+            # print(" \\\'/ \n")
+            # for i in cur.board_array:
+            #     for j in i:
+            #         print(j,end=" ")
+            #     print("")
 
             if(me.heuristic(cur.board_array) == 0):
                 movez.append(cur.move)
